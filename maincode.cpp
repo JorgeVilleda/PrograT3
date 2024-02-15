@@ -2,10 +2,18 @@
 #include <string>
 
 using namespace std;
-int main { 
-    
-    cout << "Prueba para git, recordando cosas" <<; 
 
+class Materia {
+	public: 
+		int codigo;
+		string nombre; 
+		float calificacion; 
+};
+
+class Unidad { 
+public: 
+	Materia materias[4]; 
+};
 
     return 0; 
 }
